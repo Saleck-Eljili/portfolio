@@ -11,8 +11,7 @@ import GitHub from "@material-ui/icons/GitHub";
 const useStyles = makeStyles({
   bottomNavContainer: {
     background: "#2222",
-    height:700,
-    
+    height: 700,
   },
   root: {
     "& .MuiSvgIcon-root": {
@@ -28,13 +27,32 @@ const useStyles = makeStyles({
 const Contact = () => {
   const classes = useStyles();
   return (
-    
     <BottomNavigation className={classes.bottomNavContainer}>
-      <BottomNavigationAction icon={<Mail />} className={classes.root} href="mailto:salek.eljili@gmail.com"/>
-      <BottomNavigationAction icon={<Linkedin />} className={classes.root} href="https://www.linkedin.com/in/saleck-el-jili-b56823175/"/>
-      <BottomNavigationAction icon={<Call />} className={classes.root} href="tel:+33624020215"/>
-      <BottomNavigationAction icon={<WhatsApp />} className={classes.root} href="https://wa.me/33624020215"/>
-      <BottomNavigationAction icon={<GitHub />} className={classes.root} href="https://gitlab.com/Eljili" />
+      <BottomNavigationAction
+        icon={<Mail />}
+        className={classes.root}
+        href="mailto:salek.eljili@gmail.com"
+      />
+      <BottomNavigationAction
+        icon={<Linkedin />}
+        className={classes.root}
+        href="https://www.linkedin.com/in/saleck-el-jili-b56823175/"
+      />
+      <BottomNavigationAction
+        icon={<Call />}
+        className={classes.root}
+        href="tel:+33624020215"
+      />
+      <BottomNavigationAction
+        icon={<WhatsApp />}
+        className={classes.root}
+        href="https://wa.me/33624020215"
+      />
+      <BottomNavigationAction
+        icon={<GitHub />}
+        className={classes.root}
+        href="https://gitlab.com/Eljili"
+      />
     </BottomNavigation>
   );
 };
