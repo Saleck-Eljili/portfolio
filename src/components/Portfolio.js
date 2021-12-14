@@ -43,6 +43,13 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
+    name: "My Portfolio",
+    description: "portfolio avec react JS et Material-ui",
+    image: project30,
+    link: "https://github.com/Saleck-Eljili/portfolio",
+    image1: image1,
+  },
+  {
     name: "netflix clone",
     description: "netflix clone avec react-typescript et API themoviedb (TMDB)",
     image: project30,
