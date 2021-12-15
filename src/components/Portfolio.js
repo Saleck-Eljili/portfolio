@@ -24,6 +24,8 @@ import image4 from "../images/mysql.jpg";
 import image5 from "../images/node.png";
 import image6 from "../images/django.png";
 import image7 from "../images/laravel-logo.png";
+import image8 from "../images/material-ui.png";
+import image9 from "../images/portf.PNG";
 
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
@@ -45,9 +47,10 @@ const projects = [
   {
     name: "My Portfolio",
     description: "portfolio avec react JS et Material-ui",
-    image: project30,
+    image: image9,
     link: "https://github.com/Saleck-Eljili/portfolio",
     image1: image1,
+    image2: image8,
   },
   {
     name: "netflix clone",
