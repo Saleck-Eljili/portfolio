@@ -26,6 +26,7 @@ import image6 from "../images/django.png";
 import image7 from "../images/laravel-logo.png";
 import image8 from "../images/material-ui.png";
 import image9 from "../images/portf.PNG";
+import image10 from "../images/tmb.png";
 
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
@@ -58,6 +59,7 @@ const projects = [
     image: project30,
     link: "https://github.com/Saleck-Eljili/netflix-clone",
     image1: image1,
+    image2: image10,
   },
   {
     name: "qwestTV test",
