@@ -24,9 +24,6 @@ import image4 from "../images/mysql.jpg";
 import image5 from "../images/node.png";
 import image6 from "../images/django.png";
 import image7 from "../images/laravel-logo.png";
-import image8 from "../images/material-ui.png";
-import image9 from "../images/portf.PNG";
-import image10 from "../images/tmb.png";
 
 import BottomNavigation from "@material-ui/core/BottomNavigation";
 import BottomNavigationAction from "@material-ui/core/BottomNavigationAction";
@@ -46,20 +43,11 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "My Portfolio",
-    description: "portfolio avec react JS et Material-ui",
-    image: image9,
-    link: "https://github.com/Saleck-Eljili/portfolio",
-    image1: image1,
-    image2: image8,
-  },
-  {
     name: "netflix clone",
     description: "netflix clone avec react-typescript et API themoviedb (TMDB)",
     image: project30,
     link: "https://github.com/Saleck-Eljili/netflix-clone",
     image1: image1,
-    image2: image10,
   },
   {
     name: "qwestTV test",
