@@ -49,7 +49,7 @@ const Header = () => {
             "Back-end developer",
             "Full-stack Developer",
             "NodeJS",
-            "Typscript",
+            "Typescript",
             "ReactJS",
             "Java",
             "Symfony",
