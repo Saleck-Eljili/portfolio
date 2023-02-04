@@ -121,55 +121,64 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2018
+          2022
         </Typography>
+
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
             align="center"
             className={classes.subHeading}
           >
-             Stage : Assistant technicien informatique et sécurité
+            Développeur Back-end
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          Office National de la Météorologie, Nouakchott-Mauritanie.
-          </Typography>
-         
-        </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2019
-        </Typography>
-        <Box component="div" className={classes.timeLineItem}>
-          <Typography
-            variant="h5"
-            align="center"
-            className={classes.subHeading}
-          >
-             Développeur Laravel
-          </Typography>
-          <Typography variant="body1" align="center" className={classes.body1}>
-          AMSA, Dakar- Sénégal.
+            QWEST TV, Paris France.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            <h3>Conception et réalisation d’un site de e-commerce pour fournitures scolaires
-avec Laravel :</h3> 
-<b>Tâches effectuées :</b> 
-<ul>
-  <li>Modélisation UML : diagramme de classe, diagramme de cas d’utilisation</li>
-  <li>Conception de la base de données MySQL et mise en œuvre des modèles avec l’ORM Eloquent</li>
-  <li>Mise en place du routage et conception des templates</li>
-  <li>Utilisation de Bootstrap pour le design du site</li>
-  <li>Mise en œuvre du pattern MVC pour la réalisation</li>
-  <a href="http://www.amsafourniture.com/">http://www.amsafourniture.com/</a>
-</ul>
+            NodeJS, Symfony, ReactJS, Docker et AWS
+          </Typography>
+        </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2021
+        </Typography>
 
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Contrôle et enregistrement informatique des articles réceptionnés
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Amazon ORY4, Brétigny-sur-Orge France.
+          </Typography>
+        </Box>
+        <Box component="div" className={classes.timeLineItem}>
+          <Typography
+            variant="h5"
+            align="center"
+            className={classes.subHeading}
+          >
+            Opérateur de saisie
+          </Typography>
+          <Typography variant="body1" align="center" className={classes.body1}>
+            Ivalis France.
+          </Typography>
+          <Typography
+            variant="subtitle1"
+            align="center"
+            className={classes.subtitle1}
+          >
+            des missions partout en Ile-de-France
           </Typography>
         </Box>
         <Typography
@@ -184,13 +193,11 @@ avec Laravel :</h3>
             align="center"
             className={classes.subHeading}
           >
-             Opérateur Fibre optique
+            Opérateur Fibre optique
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          CAMUSAT, Dakar-Sénégal.
+            CAMUSAT, Dakar-Sénégal.
           </Typography>
-          
-          
         </Box>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -198,32 +205,33 @@ avec Laravel :</h3>
             align="center"
             className={classes.subHeading}
           >
-             Développeur JQueryMobile & Formateur Math-Info
+            Développeur JQueryMobile & Formateur Math-Info
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          AEMST, Dakar-Sénégal.
+            AEMST, Dakar-Sénégal.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            
-<ul>
-  <li>Soutien et coaching scolaire aux étudiants de la licence 1 en math et informatique</li>
-  <li>Développement d’une application de la gestion de l’archive de l’ucad avec JQueryMobile</li>
-  
-</ul>
-
+            <ul>
+              <li>
+                Soutien et coaching scolaire aux étudiants de la licence 1 en
+                math et informatique
+              </li>
+              <li>
+                Développement d’une application de la gestion de l’archive de
+                l’ucad avec JQueryMobile
+              </li>
+            </ul>
           </Typography>
-          
-          
         </Box>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2021
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -231,31 +239,56 @@ avec Laravel :</h3>
             align="center"
             className={classes.subHeading}
           >
-             Opérateur de saisie
+            Développeur Laravel
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          Ivalis France.
+            AMSA, Dakar- Sénégal.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            des missions partout en Ile-de-France
+            <h3>
+              Conception et réalisation d’un site de e-commerce pour fournitures
+              scolaires avec Laravel :
+            </h3>
+            <b>Tâches effectuées :</b>
+            <ul>
+              <li>
+                Modélisation UML : diagramme de classe, diagramme de cas
+                d’utilisation
+              </li>
+              <li>
+                Conception de la base de données MySQL et mise en œuvre des
+                modèles avec l’ORM Eloquent
+              </li>
+              <li>Mise en place du routage et conception des templates</li>
+              <li>Utilisation de Bootstrap pour le design du site</li>
+              <li>Mise en œuvre du pattern MVC pour la réalisation</li>
+              <a href="http://www.amsafourniture.com/">
+                http://www.amsafourniture.com/
+              </a>
+            </ul>
           </Typography>
         </Box>
+        <Typography
+          variant="h2"
+          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
+        >
+          2018
+        </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
             align="center"
             className={classes.subHeading}
           >
-              Contrôle et enregistrement informatique des articles réceptionnés
+            Stage : Assistant technicien informatique et sécurité
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-          Amazon ORY4, Brétigny-sur-Orge France.
+            Office National de la Météorologie, Nouakchott-Mauritanie.
           </Typography>
-          
         </Box>
       </Box>
     </Box>
