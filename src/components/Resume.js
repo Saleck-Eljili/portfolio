@@ -251,25 +251,12 @@ const Resume = () => {
           >
             <h3>
               Conception et réalisation d’un site de e-commerce pour fournitures
-              scolaires avec Laravel :
+              scolaires avec Laravel
             </h3>
-            <b>Tâches effectuées :</b>
-            <ul>
-              <li>
-                Modélisation UML : diagramme de classe, diagramme de cas
-                d’utilisation
-              </li>
-              <li>
-                Conception de la base de données MySQL et mise en œuvre des
-                modèles avec l’ORM Eloquent
-              </li>
-              <li>Mise en place du routage et conception des templates</li>
-              <li>Utilisation de Bootstrap pour le design du site</li>
-              <li>Mise en œuvre du pattern MVC pour la réalisation</li>
-              <a href="http://www.amsafourniture.com/">
-                http://www.amsafourniture.com/
-              </a>
-            </ul>
+
+            <a href="http://www.amsafourniture.com/">
+              http://www.amsafourniture.com/
+            </a>
           </Typography>
         </Box>
         <Typography
