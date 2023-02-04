@@ -28,7 +28,6 @@ const useStyles = makeStyles((theme) => ({
     width: "100vw",
     textAlign: "center",
     zIndex: 1,
-    
   },
 }));
 
@@ -47,8 +46,16 @@ const Header = () => {
       <Typography className={classes.subtitle} variant="h5">
         <Typed
           strings={[
-            "Web Developer",
-            "Mobile Developer",
+            "Back-end developer",
+            "Full-stack Developer",
+            "NodeJS",
+            "Typscript",
+            "ReactJS",
+            "Java",
+            "Symfony",
+            "Python",
+            "Docker",
+            "AWS",
           ]}
           typeSpeed={80}
           backSpeed={100}
