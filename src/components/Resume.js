@@ -168,18 +168,16 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Opérateur de saisie
+            Développeur Full Stack
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            Ivalis France.
+            ESTIAM Paris.
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
-          >
-            des missions partout en Ile-de-France
-          </Typography>
+          ></Typography>
         </Box>
         <Typography
           variant="h2"
