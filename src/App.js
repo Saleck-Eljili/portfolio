@@ -1,27 +1,25 @@
-import React from "react";
-import { Route, Switch } from "react-router-dom";
-import CssBaseline from "@material-ui/core/CssBaseline";
-import Home from "./components";
-import Resume from "./components/Resume";
-import Navbar from "./components/Navbar";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import React from 'react'
+import "./App.css"
+import About from './components/container/About/About'
+import Contact from './components/container/Contact/Contact'
+import Footer from './components/container/Footer/Footer'
+import Home from './components/container/Home/Home'
+import Portfolio from './components/container/Portfolio/Portfolio'
+import Skills from './components/container/Skills/Skills'
+import Navbar from './components/Navbar/Navbar'
 
-import "./App.css";
-
-function App() {
+const App = () => {
   return (
-    <React.Fragment>
-      <CssBaseline />
+    <div>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/resume" component={Resume} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/contact" component={Contact} />
-      </Switch>
-    </React.Fragment>
-  );
+      <Home />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+export default App
