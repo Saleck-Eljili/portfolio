@@ -37,13 +37,12 @@ const About = () => {
         >
           <p>
             Développeur full-stack formé à l'École supérieure des technologies
-            de l'information appliquées aux métiers avec 2 ans d'expérience dont
-            un an d'alternance à la recherche d'un poste en Fullstack ou
-            Back-End pour septembre. actuellement en poste chez Qwest TV pour
-            une durée de 2 ans en tant que Back-End Developer. je me charge du
-            Développement des API pour l’envoi des métadonnées aux prestataires
-            en Node.js, TypeScript ainsi que du développement d'une plateforme
-            pour la gestion des EPG en React.js et Symfony.
+            de l'information appliquées aux métiers avec 2 ans d'expérience en
+            alternance à la recherche d'un poste en Fullstack ou Back-End pour
+            septembre. actuellement en poste chez Qwest TV pour une durée de 2
+            ans en tant que Back-End Developer. je me charge du Développement
+            des API pour l’envoi des métadonnées aux prestataires ainsi que du
+            développement d'une plateforme pour la gestion des EPG .
           </p>
           {bios.map((bio) => {
             return (
