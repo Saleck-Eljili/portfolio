@@ -71,7 +71,7 @@ export const icons = [
 export const experiences = [
   {
     id: 1,
-    year: "2022",
+    year: "2021-2023",
     position: "Développeur back-end",
     company: "Qwest TV",
   },
@@ -91,11 +91,23 @@ export const experiences = [
   {
     id: 4,
     year: "2020",
+    position: "Développeur back-end",
+    company: "CAMUSAT",
+  },
+  {
+    id: 5,
+    year: "2020",
     position: "Développeur JQueryMobile et Formateur Math-Info",
     company: "AEMST",
   },
   {
-    id: 5,
+    id: 6,
+    year: "2019",
+    position: "Développeur Java",
+    company: "CE",
+  },
+  {
+    id: 7,
     year: "2019",
     position: "Développeur Laravel",
     company: "AMSA",
