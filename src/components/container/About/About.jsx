@@ -3,7 +3,8 @@ import "./About.scss";
 
 import { motion } from "framer-motion";
 import { bios } from "../../../Data";
-import portfolio from "../../../assets/CV__Saleck.pdf";
+import portfolio from "../../../assets/portfolio.png";
+import cv from "../../../assets/CV__Saleck.pdf";
 const About = () => {
   return (
     <div className="container " id="about">
@@ -58,7 +59,7 @@ const About = () => {
             );
           })}
           <motion.a
-            href={portfolio}
+            href={cv}
             download=""
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
