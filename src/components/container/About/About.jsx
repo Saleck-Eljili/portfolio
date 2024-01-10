@@ -3,7 +3,7 @@ import "./About.scss";
 
 import { motion } from "framer-motion";
 import { bios } from "../../../Data";
-import portfolio from "../../../assets/portfolio.png";
+import portfolio from "../../../../public/CV__Saleck.pdf";
 const About = () => {
   return (
     <div className="container " id="about">
@@ -36,13 +36,15 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <p>
-            Développeur full-stack formé à l'École supérieure des technologies
-            de l'information appliquées aux métiers avec 2 ans d'expérience en
-            alternance à la recherche d'un poste en Fullstack ou Back-End pour
-            septembre. actuellement en poste chez Qwest TV pour une durée de 2
-            ans en tant que Back-End Developer. je me charge du Développement
-            des API pour l’envoi des métadonnées aux prestataires ainsi que du
-            développement d'une plateforme pour la gestion des EPG .
+            Ingénieur logiciel formé à l'École supérieure des technologies de
+            l'information appliquées aux métiers, avec une expérience
+            professionnelle de plus de 3 ans, dont 2 ans en alternance.
+            Actuellement en fonction chez Qwest TV en tant qu'ingénieur logiciel
+            orienté Back-End, je suis responsable du développement des API pour
+            la transmission des métadonnées aux prestataires, ainsi que de la
+            création d'une plateforme dédiée à la gestion des EPG. Je recherche
+            activement un nouveau défi professionnel en tant qu'ingénieur
+            logiciel, avec une expertise particulière en Fullstack ou Back-End.
           </p>
           {bios.map((bio) => {
             return (

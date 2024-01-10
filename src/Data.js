@@ -75,13 +75,13 @@ export const experiences = [
     position: "Développeur back-end",
     company: "Qwest TV",
   },
-  {
+  /* {
     di: 2,
     year: "2021",
     position:
       "Contrôle et enregistrement informatique des articles réceptionnés",
     company: "Amazon",
-  },
+  }, */
   {
     id: 3,
     year: "2021",
