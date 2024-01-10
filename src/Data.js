@@ -104,7 +104,7 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: "2+",
+    number: "3+",
     itemName: "Années d'expérience",
   },
   {
