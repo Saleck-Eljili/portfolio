@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.scss";
 import { animate, motion } from "framer-motion";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
-import { navLinks } from "../../Data";
+import { navLinks, SosLinks } from "../../Data";
 import { socialIcons } from "../../Data";
 const Navbar = () => {
   const [scroll, setScroll] = useState(false);
@@ -60,7 +60,11 @@ const Navbar = () => {
         </ul>
         <div className="social_icons">
           {socialIcons.map((socialIcon, index) => {
-            return <div key={index}>{socialIcon}</div>;
+            return (
+              <div key={index}>
+                <a href={`${SosLinks[index]}`}>{socialIcon}</a>
+              </div>
+            );
           })}
         </div>
         <div className="menu">

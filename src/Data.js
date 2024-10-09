@@ -29,6 +29,13 @@ import work6 from "./assets/work6.png";
 
 export const navLinks = ["home", "about", "skills", "portfolio", "contact"];
 
+export const SosLinks = [
+  "https://www.linkedin.com/in/saleck-el-jili-b56823175/",
+  "https://github.com/Saleck-Eljili/",
+  "https://www.youtube.com/@ljili6951",
+  "https://www.tiktok.com/@eljili01",
+];
+
 export const socialIcons = [
   <FaLinkedin />,
   <FaGithub />,
