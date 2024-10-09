@@ -1,5 +1,5 @@
 import React from "react";
-import portfolio from "../../../assets/portfolio.png";
+import portfo from "../../../assets/portfo.png";
 import "./Home.scss";
 import { motion } from "framer-motion";
 
@@ -27,7 +27,7 @@ const Home = () => {
       }}
     >
       <div className="profile">
-        <img src={portfolio} alt="portfolio" />
+        <img src={portfo} alt="portfolio" />
       </div>
       <div className="profile_text">
         <h3 className="name">
