@@ -31,7 +31,7 @@ const Home = () => {
       </div>
       <div className="profile_text">
         <h3 className="name">
-          Hi, Je suis <span>EL JILI</span>{" "}
+          Hi, Je suis <span>Saleck</span>{" "}
         </h3>
         <span className="job">Développeur full-stack basé à paris</span>
         <span className="text">

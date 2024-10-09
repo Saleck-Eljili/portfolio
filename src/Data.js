@@ -71,7 +71,13 @@ export const icons = [
 export const experiences = [
   {
     id: 1,
-    year: "2021-2023",
+    year: "2024",
+    position: "Consultant Full-Stack (JAVA/JS)",
+    company: "Capgemini",
+  },
+  {
+    id: 2,
+    year: "2021-2024",
     position: "Développeur back-end",
     company: "Qwest TV",
   },
@@ -90,7 +96,7 @@ export const experiences = [
   },
   {
     id: 4,
-    year: "2020",
+    year: "2020-2021",
     position: "Développeur back-end",
     company: "CAMUSAT",
   },
@@ -116,7 +122,7 @@ export const experiences = [
 export const finishes = [
   {
     id: 1,
-    number: "3+",
+    number: "4+",
     itemName: "Années d'expérience",
   },
   {

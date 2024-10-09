@@ -37,15 +37,15 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <p>
-            Ingénieur logiciel formé à l'École supérieure des technologies de
-            l'information appliquées aux métiers, avec une expérience
-            professionnelle de plus de 3 ans, dont 2 ans en alternance.
-            Actuellement en fonction chez Qwest TV en tant qu'ingénieur logiciel
-            orienté Back-End, je suis responsable du développement des API pour
-            la transmission des métadonnées aux prestataires, ainsi que de la
-            création d'une plateforme dédiée à la gestion des EPG. Je recherche
-            activement un nouveau défi professionnel en tant qu'ingénieur
-            logiciel, avec une expertise particulière en Fullstack ou Back-End.
+            Ingénieur logiciel diplômé de l'École Supérieure des Technologies de
+            l'Information Appliquées aux Métiers, certifié Scrum Developer et
+            prochainement certifié en Terraform et AWS. Fort de plus de 4 ans
+            d’expérience dans le développement Java/JavaScript, je suis
+            passionné par l’apprentissage continu et la résolution de nouveaux
+            défis. Mon adaptabilité me permet de m'intégrer rapidement dans tout
+            environnement de travail, et ma maîtrise approfondie de
+            l’algorithmique me rend capable de travailler efficacement avec
+            n’importe quelle technologie.
           </p>
           {bios.map((bio) => {
             return (
