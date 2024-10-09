@@ -135,11 +135,6 @@ export const finishes = [
     number: "20+",
     itemName: "Projets réalisés",
   },
-  /* {
-    id: 4,
-    number: "5+",
-    itemName: "Clients servis",
-  }, */
 ];
 export const workImages = [
   {
