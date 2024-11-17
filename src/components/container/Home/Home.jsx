@@ -47,8 +47,8 @@ const Home = () => {
           contactez moi
         </motion.a>
         <div className="web">Web Developer</div>
-        <div className="ui">Full-Stack Developer</div>
-        <div className="freelance">Mobile Developer</div>
+        <div className="ui">DevOps</div>
+        <div className="freelance">Cloud</div>
       </div>
     </motion.div>
   );
